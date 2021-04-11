@@ -1,0 +1,27 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.margin-top-5per{
+  margin-top: 20px;
+}
+
+.title{
+  font-size: 20px;
+}
+
+.article-block{
+  background-color: white;
+  border: 1px solid #BBBBBB;
+  padding: 10px;
+}
+
+a{
+  color: #666666;
+}
+
+.article-image{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}

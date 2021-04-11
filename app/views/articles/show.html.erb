@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 margin-top-5per article-block">
+      <%= image_tag "test1.png", class:'img-thumbnail article-image' %>
+      <h1><%= @article.title %></h1>
+      <div>
+        <p><%= @article.body %></p>
+        <p class="text-right">
+          <%= @article.created_at.strftime('%Y/%m/%d')  %>
+        </p>
+      </div>
+      <%= link_to "編集する", edit_article_path(@article), class:"margin-top-5pe btn btn-primary"%>
+      <%= link_to "消去する", article_path(@article), method: :delete, class:"margin-top-5pe btn btn-warning"%>
+    </div>
+  </div>
+</div>

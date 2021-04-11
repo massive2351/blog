@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,gBAAgB;EACd,UAAU,EAAE,IAAI;;AAGlB,MAAM;EACJ,SAAS,EAAE,IAAI;;AAGjB,SAAS;EACP,gBAAgB,EAAE,KAAK;;AAEzB,cAAc;EACd,gBAAgB,EAAE,KAAK",
+"sources": ["articles.scss"],
+"names": [],
+"file": "articles.css"
+}

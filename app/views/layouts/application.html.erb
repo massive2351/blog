@@ -10,6 +10,25 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-3 mb-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+              <li>
+                <%= link_to "一覧画面", root_path, class:"navbar-brand" %>
+              </li>
+              <li>
+                <%= link_to "新規作成", new_article_path, class:"navbar-brand" %>
+              </li>
+            </div>
+        </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
